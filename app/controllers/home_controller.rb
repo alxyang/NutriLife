@@ -20,4 +20,11 @@ class HomeController < ApplicationController
 
  def loseweight
  end
+
+ def acne
+ end
+
+ def healthyhair
+ end
+ 
 end
