@@ -8,7 +8,6 @@ gem 'bootstrap-sass'
 
 gem 'sqlite3'
 gem 'json'
-gem 'instagram'
 gem 'will_paginate'
 gem 'jquery-rails'
 
