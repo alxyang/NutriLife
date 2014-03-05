@@ -18,4 +18,6 @@ class HomeController < ApplicationController
   def contact
   end
 
+ def loseweight
+ end
 end
