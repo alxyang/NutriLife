@@ -35,10 +35,8 @@ InstaApp::Application.routes.draw do
   match '/KaleChips', to: 'home#kale'
   match '/PeanutThins', to: 'home#peanutthins'
   match '/CoffeeCake', to: 'home#coffeecake'
-
   match '/Snack', to: 'home#snack'
   match '/Meal', to: 'home#meal'
-
   match '/bluelemoncake', to: 'home#bluelemoncake'
   match '/FruityCraving', to: 'home#fruitycraving'
   match '/ChocCraving', to: 'home#choccraving'
@@ -46,7 +44,6 @@ InstaApp::Application.routes.draw do
   match '/Dessert', to: 'home#dessert'
   match '/error404', to: 'home#error404'
   match '*a' => redirect("/error404")
-
   root :to => "home#index"
 
   #match checks url CASE SENSITIVE

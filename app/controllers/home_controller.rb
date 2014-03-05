@@ -111,7 +111,6 @@ class HomeController < ApplicationController
   def coffeecake 
   end
 
-
   def snack
   end
 
