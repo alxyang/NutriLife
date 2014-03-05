@@ -33,6 +33,8 @@ InstaApp::Application.routes.draw do
   match '/BananaBites', to: 'home#bananabites'
   match '/HummusVeggies', to: 'home#hummusveggies'
   match '/KaleChips', to: 'home#kale'
+  match '/PeanutThins', to: 'home#peanutthins'
+  match '/CoffeeCake', to: 'home#coffeecake'
   root :to => "home#index"
 
   #match checks url CASE SENSITIVE

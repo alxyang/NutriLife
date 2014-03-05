@@ -105,4 +105,10 @@ class HomeController < ApplicationController
   def kale
   end
 
+  def peanutthins
+  end
+
+  def coffeecake 
+  end
+
 end
