@@ -43,7 +43,7 @@ InstaApp::Application.routes.draw do
   match '/FruityCraving', to: 'home#fruitycraving'
   match '/ChocCraving', to: 'home#choccraving'
   match '/CoffeeCraving', to: 'home#coffeecraving'
-  match '/Dessert', to: 'home#Dessert'
+  match '/Dessert', to: 'home#dessert'
 
   root :to => "home#index"
 
