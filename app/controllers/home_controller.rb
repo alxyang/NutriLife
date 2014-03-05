@@ -57,4 +57,13 @@ class HomeController < ApplicationController
   def tomatosoup
   end 
 
+  def lemonpoundcake
+  end
+
+  def coconutpudding
+  end
+
+  def oatmealflax
+  end
+
 end
