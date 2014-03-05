@@ -111,9 +111,27 @@ class HomeController < ApplicationController
   def coffeecake 
   end
 
+
   def snack
   end
 
   def meal 
   end
+
+  def bluelemoncake
+  end
+
+  def fruitycraving
+  end
+
+  def choccraving
+  end
+
+  def coffeecraving
+  end
+
+  def dessert
+  end
+
+
 end

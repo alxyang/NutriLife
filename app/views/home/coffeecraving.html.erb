@@ -1,0 +1,147 @@
+<%= render "nav" %>
+
+
+   <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Recipes
+                    <small>Coffee Craving</small>
+                </h1>
+                                <ol class="breadcrumb">
+                    <li><a href="/Home">Home</a>
+                    </li>
+                    <li class="active">Recipes</li>
+                    <li class="active">Coffee Craving</li>
+                </ol>
+            </div>
+
+        </div>
+<!--         <div class="row">
+
+            <div class="col-lg-12">
+              <div class="jumbotron">
+                <h1>Jumbotron</h1>
+                <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+              </div>
+            </div>
+
+        </div> -->
+
+        <div class="row">
+
+            <div class="col-md-4 recipe-item">
+                <a href="/CoffeeCake">
+                    <%= image_tag "coffeecake4.jpg", :class => 'img-responsive'%>
+                                    <span class="label label-danger pull-right">coffee cake</span>
+                </a>
+                <h3><a href="/CoffeeCake">Sour Cream Coffee Cake</a></h3>
+
+                <p>Not just for brunch, our coffee cakes are sweet enough for dessert too. Whether you're a fan of citrus, cinnamon, nuts, or fruit—you're bound to find new favorites with these recipes.In our first recipe, we slimmed down a classic and added whole grains to the mix to create Sour Cream Coffee Cake. Our way trimmed 225 calories and a whopping 21 grams of fat per serving from the original.</p>
+            </div>
+
+            <div class="col-md-4 recipe-item">
+                <a href="/bluelemoncake">
+                    <%= image_tag "bluelemon2.jpg", :class => 'img-responsive'%>
+                                    <span class="label label-success pull-right">coffee cake</span>
+                </a>
+                <h3><a href="/bluelemoncake">Blueberry Lemon Coffee Cake</a>
+                </h3>
+
+                <p>Blueberries and lemon are a natural match, and they come together nicely in this fruit-filled coffee cake. Blueberries are known to be a good antioxidant and skin glow booster.Almond paste, a sweet mixture of ground almonds and sugar, contributes a mildly nutty flavor and moist texture.</p>
+            </div>
+
+        </div>
+
+        <!--<div class="row">
+
+            <div class="col-md-4 recipe-item">
+                <a href="/Recipe">
+                    <img class="img-responsive" src="http://placehold.it/700x400">
+                </a>
+                <h3><a href="/Recipe">Recipe Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+            <div class="col-md-4 recipe-item">
+                <a href="/Recipe">
+                    <img class="img-responsive" src="http://placehold.it/700x400">
+                </a>
+                <h3><a href="/Recipe">Recipe Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+            <div class="col-md-4 recipe-item">
+                <a href="/Recipe">
+                    <img class="img-responsive" src="http://placehold.it/700x400">
+                </a>
+                <h3><a href="/Recipe">Recipe Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 recipe-item">
+                <a href="/Recipe">
+                    <img class="img-responsive" src="http://placehold.it/700x400">
+                </a>
+                <h3><a href="/Recipe">Recipe Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+            <div class="col-md-4 recipe-item">
+                <a href="/Recipe">
+                    <img class="img-responsive" src="http://placehold.it/700x400">
+                </a>
+                <h3><a href="/Recipe">Recipe Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+            <div class="col-md-4 recipe-item">
+                <a href="/Recipe">
+                    <img class="img-responsive" src="http://placehold.it/700x400">
+                </a>
+                <h3><a href="/Recipe">Recipe Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+        </div>-->
+
+        <hr>
+
+        <div class="row text-center">
+
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li><a href="#">&laquo;</a>
+                    </li>
+                    <li class="active"><a href="#">1</a>
+                    </li>
+                    <li><a href="#">2</a>
+                    </li>
+                    <li><a href="#">3</a>
+                    </li>
+                    <li><a href="#">4</a>
+                    </li>
+                    <li><a href="#">5</a>
+                    </li>
+                    <li><a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+<%= render "footer" %>

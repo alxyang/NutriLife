@@ -1,0 +1,167 @@
+<%= render "nav" %>
+
+
+   <div class="container">
+            <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Recipe 
+                    <small>Blueberry Lemon Coffee Cake</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="/Home">Home</a>
+                    </li>
+                     <li><a href="/Category">Dessert</a>
+                    </li>
+                    <li class="active">Blueberry Lemon Coffee Cake</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">Ingredients</p>
+                 <ul class="list-group">
+                  <li class="list-group-item">
+                    <span class="badge">1 1/2 cups</span>
+                    all-purpose flour
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 ounce</span>
+                    whole wheat flour
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2 cup</span>
+                    brown sugar
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">2 tspn</span>
+                  baking powder
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2 tsp</span>
+                    salt
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/4 tsp</span>
+                    baking soda
+                  </li>
+                    <li class="list-group-item">
+                    <span class="badge">1/3 cup</span>
+                    almond paste
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 tblsp</span>
+                    lemon juice
+                  </li>
+                   <li class="list-group-item">
+                    <span class="badge">3/4 cup</span>
+                    fat-free milk
+                  </li>
+                    <li class="list-group-item">
+                    <span class="badge">1</span>
+                    large egg
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 1/2 cup</span>
+                    blueberries
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">2 tsp</span>
+                    grated lemon rind
+                  </li>
+                </ul>
+                <p class="lead">Additional Images</p>
+
+                <%= image_tag "berries.jpg", :class => 'img-responsive image-spacing'%>
+                <%= image_tag "Almond-paste.jpg", :class => 'img-responsive image-spacing'%>
+
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                     <%= image_tag "bluelemon.jpg", :class => 'img-responsive'%>
+
+                    <div class="caption-full">
+                        <h3 class = "header-spacing">Blueberry Lemon Coffee Cake</h3>
+                    </div>
+
+                        <p class = "p-spacing">Blueberries and lemon are a natural match, and they come together nicely in this fruit-filled coffee cake. Blueberries are known to be a good antioxidant and skin glow booster.Almond paste, a sweet mixture of ground almonds and sugar, contributes a mildly nutty flavor and moist texture.</p>
+
+              </div>
+              <div class = "thumbnail">
+                    <div class="caption-full">
+                        <h3>Preparation Instructions
+                        </h3>
+                        <em>Total Time: 1 hour</em>
+                    </div>
+
+              <ol class = "preparation-instructions">
+                  <li>
+                    Preheat the oven to 350 degrees F. To prepare cake, lightly spoon flour into dry measuring cups, and level with a knife. Combine flour, baking powder, baking soda, and salt in a small bowl, stirring with a whisk.
+                  </li>
+                  <li> Place 1/2 cup sugar, almond paste, and 2 tablespoons butter in a large bowl; beat with a mixer at medium speed until well blended. Add egg and lemon juice, beating well. Add flour mixture and fat-free milk alternately to sugar mixture, beginning and ending with flour mixture. Fold in blueberries and rind. Spoon batter into a 9-inch square baking pan coated with cooking spray.</li>
+                  <li>To prepare topping, combine 1/4 cup sugar and remaining ingredients in a small bowl, tossing with a fork until moist. Sprinkle topping evenly over batter. Bake at 350° for 35 minutes or until a wooden pick inserted in center comes out clean. Cool in pan on a wire rack. (Toppings can be your choice of fruit but we recommend sliced almonds and cinnamon with some oats.</li>
+                  <li>Note: Almond paste is found in the baking section of the grocery store. (Don't substitute marzipan, which is sweeter and has a smoother texture.) If it is hard, soften it by microwaving at HIGH 10 to 15 seconds.</li>
+                </ol>
+
+                </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+
+                <!-- the comment box -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- the comments 
+                <div class = "row">
+                  <div class="col-md-2"><img class = "img-circle img-responsive" alt="broken" src ="http://placehold.it/300x300"/></div>
+                  <div class="col-md-10">
+                <h4>Alex Yang
+                    <small>9:41 PM on August 24, 2013</small>
+                </h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, officia non recusandae repellendus quaerat odit eligendi modi sapiente totam molestiae?</p>
+                </div>
+              </div>
+              <br/>
+                <div class = "row">
+                  <div class="col-md-2"><img class = "img-circle img-responsive" alt="broken" src ="http://placehold.it/300x300"/></div>
+                  <div class="col-md-10">
+                <h4>Anam Majidi
+                    <small>9:41 PM on August 24, 2013</small>
+                </h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, officia non recusandae repellendus quaerat odit eligendi modi sapiente totam molestiae?</p>
+                </div>
+              </div>-->
+            </div>
+        </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+
+
+<%= render "footer" %>
