@@ -21,3 +21,5 @@ Typically, once your ruby installation works, all you need to do is <tt>gem inst
 If you do not wish to set up Ruby on Rails on your local machine, but still want to 
 view this website, it is deployed here at:
 <tt>http://nutri-life.herokuapp.com/</tt>
+
+Wireframes and Task Division List are in seperate PDF files in compressed folder. 
