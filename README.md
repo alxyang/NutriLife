@@ -8,7 +8,7 @@ Find the latest version here: http://rubyonrails.org/download
 2. Run <tt>bundle install</tt>
 
 3. start the web server:
-       <tt>cd healthy-eats-rails; rails server</tt> (run with --help for options)
+       <tt>rails server</tt> (run with --help for options)
 
-4. Go to http://localhost:3000/. All done!
+4. Go to http://localhost:3000/ in your browser. All done!
 
