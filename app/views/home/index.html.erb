@@ -1,0 +1,90 @@
+ <div class = "video-spacing">
+<%= render "nav" %>
+
+<div class = "super-wrapper">
+  <div class = "wrapper-overlay">
+      </div>
+  <div class = "video-overlay-text h1">
+    Lorem ipsum dolor.
+  </div>
+
+  <div class = "container-fluid zero-space-font video-wrapper">
+    <div class = "row">
+      <!-- <div class ="video-overlay-text h1">Lorem ipsum dolor.</div> -->
+    <%= video_tag(["video/food.mp4"], :id => "video_background", :loop => "loop", :autoplay => "autoplay", :preload => "auto", :muted => 'muted') %>
+    </div>
+  </div>
+</div>
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-md-4">
+      <%= image_tag "image1.jpg", :class => 'img-rounded img-responsive'%>
+      <h3>Lorem ipsum dolor sit amet.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, id, nemo aspernatur totam dolor officiis.</p>
+      <p><a class="btn btn-default" href="404.html">Learn More »</a></p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag "image2.jpg", :class => 'img-rounded img-responsive'%>
+      <h3>Lorem ipsum dolor.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, voluptate dignissimos.</p>
+      <p><a class="btn btn-default" href="404.html">Learn More »</a></p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag "http://placehold.it/700x450", :class => 'img-rounded img-responsive'%>
+      <h3>Lorem ipsum dolor sit.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas sit cum.</p>
+      <p><a class="btn btn-default" href="404.html">Learn More »</a></p>
+    </div>
+  </div><!-- /.row -->
+</div><!-- container -->
+
+        <!-- START THE FEATURETTES -->
+
+    <div class="container featurettes">
+
+        <hr class="featurette-divider">
+
+        <div class="featurette" id="about">
+            <img alt="broken" class="featurette-image img-rounded img-responsive pull-right" src="http://placehold.it/300x200">
+            <div class="h3">Lorem ipsum dolor sit amet.
+            </div>
+            <p class="lead-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, aperiam quia error architecto animi dolores ipsum enim aspernatur placeat officiis voluptatibus quidem veritatis odit. A, nisi ea voluptatum ipsam illum?</p>
+            <a class="btn btn-large btn-primary" href="404.html">Learn More</a>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette" id="services">
+            <img alt="broken" class="featurette-image img-rounded img-responsive pull-left" src="http://placehold.it/300x200">
+            <div class="h3">Lorem ipsum dolor sit amet.
+            </div>
+            <p class="lead-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, est, provident dolorem at ut similique fuga? Corrupti, temporibus, dignissimos, impedit quasi provident suscipit et quisquam eius enim omnis quam esse.</p>
+            <a class="btn btn-large btn-primary" href="404.html">Learn More</a>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette" id="contact">
+            <img alt="broken" class="featurette-image img-rounded img-responsive pull-right" src="http://placehold.it/300x200">
+            <div class="h3">Lorem ipsum dolor sit amet.
+            </div>
+            <p class="lead-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, praesentium, earum libero quidem nostrum possimus suscipit fugiat eum explicabo porro laboriosam maxime aspernatur quod nemo consequatur? Et, alias nihil eum.</p>
+            <a class="btn btn-large btn-primary" href="404.html">Learn More</a>
+        </div>
+
+
+        <!-- /END THE FEATURETTES -->
+
+    </div>
+    <!-- /container -->
+
+
+<%= render "footer" %>
+ 
+</div>

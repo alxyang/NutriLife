@@ -1,0 +1,14 @@
+@media(min-width:767px) {
+    .navbar {
+        padding: 17px 0;
+        opacity: 0.85;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 5px 0;
+    }
+}
