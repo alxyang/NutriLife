@@ -8,6 +8,9 @@ InstaApp::Application.routes.draw do
   match '/LoseWeight', to: 'home#loseweight'
   match '/StrawberrySmoothie', to: 'home#strawberrysmoothie'
   match '/BlueberryMuffin', to: 'home#blueberrymuffin'
+  match '/Acne', to: 'home#acne'
+  match '/HealthyHair', to: 'home#healthyhair'
+
   root :to => "home#index"
 
   # The priority is based upon order of creation:

@@ -27,4 +27,15 @@ class HomeController < ApplicationController
   def blueberrymuffin
   end
 
+
+ def loseweight
+ end
+
+ def acne
+ end
+
+ def healthyhair
+ end
+ 
+
 end
