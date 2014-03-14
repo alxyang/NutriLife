@@ -14,7 +14,9 @@ InstaApp::Application.routes.draw do
   match '/BerryParfait', to: 'home#berryparfait'
   match '/Lunch', to: 'home#lunch'
   match '/Dinner', to: 'home#dinner'
-  
+  match '/Quinoasalad', to: 'home#quinoasalad'
+  match '/PastaSalad', to: 'home#pastasalad'
+  match '/TomatoSoup', to: 'home#tomatosoup'
   root :to => "home#index"
 
   # The priority is based upon order of creation:

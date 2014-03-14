@@ -1,0 +1,150 @@
+<%= render "nav" %>
+
+
+   <div class="container">
+            <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Recipe 
+                    <small>Tomato-Mint Quinoa Salad</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="/Home">Home</a>
+                    </li>
+                    <li><a href="/Lunch">Lunch</a></li>
+                    <li class="active">Tomato-Mint Quinoa Salad</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+             <div class="col-md-3">
+                <p class="lead">Ingredients</p>
+                 <ul class="list-group">
+                  <li class="list-group-item">
+                    <span class="badge">1 1/4 cups</span>
+                    Quinoa
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/3 cup</span>
+                    Raisins
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 pinch</span>
+                    Salt
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">2</span>
+                    Diced tomatoes
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1</span>
+                    Minced onion
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2</span>
+                    Cucumber
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">2 tablespoons</span>
+                    Sliced almonds
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/4 cup</span>
+                    Chopped mint
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">2 tablespoons</span>
+                    Chopped parsley 
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 teaspoon</span>
+                    Ground cumin
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/4 cup</span>
+                    Lime juice
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">2 tablespoons</span>
+                    Sesame oil
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 pinch</span>
+                    Salt
+                  </li>
+                </ul>
+
+                <p class="lead">Additional Images</p>
+                <%= image_tag "quinoa.jpg", :class => 'img-responsive image-spacing'%>
+                <%= image_tag "cumin.jpg", :class => 'img-responsive image-spacing'%>
+<!--                 <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
+                <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
+                <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a> -->
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                    <%= image_tag "quinoasalad.jpg", :class => 'img-responsive'%>
+                    <div class="caption-full">
+                        <h3 class = "header-spacing">Tomato-Mint Quinoa Salad</h3>
+                    </div>
+
+                        <p class = "p-spacing">Even for non-vegetarians, quinoa is a great change to rice or pasta. Quinoa provides all 9 essential amino acids, making it a complete protein. Quinoa is a gluten-free and cholesterol-free whole grain, and is almost always organic.</p>
+
+              </div>
+              <div class = "thumbnail">
+                    <div class="caption-full">
+                        <h3>Preparation Instructions
+                        </h3>
+                        <em>Total Time: 2 hours</em>
+                    </div>
+
+              <ol class = "preparation-instructions">
+                  <li>
+                   Bring water to boil in a small saucepan. Pour in quinoa, raisins, and a pinch of salt. Cover, and let simmer for 12 to 15 minutes, then remove from heat, and allow to cool to room temperature.
+                  </li>
+                  <li>Toss together the tomatoes, onion, radish, cucumber, and almonds in a large bowl. Stir in the cooled quinoa, then season with mint, parsley, cumin, lime juice, sesame oil, and salt. Chill 1 to 2 hours before serving.</li>
+                  
+                </ol>
+
+                </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+
+                <!-- the comment box -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- the comments -->
+
+            </div>
+        </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+
+
+<%= render "footer" %>

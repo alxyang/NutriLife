@@ -46,5 +46,15 @@ class HomeController < ApplicationController
   end
 
   def dinner
-  end  
+  end 
+
+  def quinoasalad
+  end 
+
+  def pastasalad
+  end 
+
+  def tomatosoup
+  end 
+
 end
