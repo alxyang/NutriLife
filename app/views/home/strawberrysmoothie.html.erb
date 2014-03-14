@@ -1,0 +1,141 @@
+<%= render "nav" %>
+
+
+   <div class="container">
+            <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Recipe 
+                    <small>Strawberry Oatmeal Breakfast Smoothie</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="index.html">Breakfast</a></li>
+                    <li class="active">Strawberry Oatmeal Breakfast Smoothie</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+             <div class="col-md-3">
+                <p class="lead">Ingredients</p>
+                 <ul class="list-group">
+                  <li class="list-group-item">
+                    <span class="badge">1 cup</span>
+                    Soy milk
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">14</span>
+                    Frozen strawberries
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2 cup</span>
+                    Rolled oats
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2 teaspoon</span>
+                    Vanilla extract
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1</span>
+                    Banana
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 1/2 teaspoon</span>
+                    White sugar
+                  </li>
+                </ul>
+
+                <p class="lead">Additional Images</p>
+                <%= image_tag "rolledoats.jpg", :class => 'img-responsive image-spacing'%>
+<!--                 <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
+                <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
+                <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a> -->
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                    <%= image_tag "breakfast1.jpg", :class => 'img-responsive'%>
+                    <div class="caption-full">
+                        <h3 class = "header-spacing">Strawberry Oatmeal Breakfast Smoothie</h3>
+                    </div>
+
+                        <p class = "p-spacing">This is a fast vegan smoothie with a deep pink color and a rich, creamy texture. VERY filling, and perfect for people in a rush in the morning. You don't have to give up a good breakfast when it's this fast to make! I use vitamin fortified soy milk.</p>
+
+              </div>
+              <div class = "thumbnail">
+                    <div class="caption-full">
+                        <h3>Preparation Instructions
+                        </h3>
+                        <em>Total Time: 5 minutes</em>
+                    </div>
+
+              <ol class = "preparation-instructions">
+                  <li>
+                   In a blender, combine soy milk, oats, banana and strawberries. Add vanilla and sugar if desired.
+                  </li>
+                  <li>Blend until smooth. Pour into glasses and serve.</li>
+                  
+                </ol>
+
+                </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+
+                <!-- the comment box -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- the comments -->
+                <div class = "row">
+                  <div class="col-md-2"><img class = "img-circle img-responsive" alt="broken" src ="http://placehold.it/300x300"/></div>
+                  <div class="col-md-10">
+                <h4>Alex Yang
+                    <small>9:41 PM on August 24, 2013</small>
+                </h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, officia non recusandae repellendus quaerat odit eligendi modi sapiente totam molestiae?</p>
+                </div>
+              </div>
+              <br/>
+                <div class = "row">
+                  <div class="col-md-2"><img class = "img-circle img-responsive" alt="broken" src ="http://placehold.it/300x300"/></div>
+                  <div class="col-md-10">
+                <h4>Anam Majidi
+                    <small>9:41 PM on August 24, 2013</small>
+                </h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, officia non recusandae repellendus quaerat odit eligendi modi sapiente totam molestiae?</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+
+
+<%= render "footer" %>

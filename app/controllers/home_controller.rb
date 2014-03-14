@@ -18,6 +18,13 @@ class HomeController < ApplicationController
   def contact
   end
 
- def loseweight
- end
+  def loseweight
+  end
+
+  def strawberrysmoothie
+  end
+
+  def blueberrymuffin
+  end
+
 end

@@ -1,0 +1,168 @@
+<%= render "nav" %>
+
+
+   <div class="container">
+            <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Recipe 
+                    <small>Low-Fat Blueberry Bran Muffins</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="index.html">Breakfast</a></li>
+                    <li class="active">Low-Fat Blueberry Bran Muffins</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+             <div class="col-md-3">
+                <p class="lead">Ingredients</p>
+                 <ul class="list-group">
+                  <li class="list-group-item">
+                    <span class="badge">1 1/2 cups</span>
+                    Wheat bran
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 cup</span>
+                    Nonfat milk
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2 cup</span>
+                    Unsweetened applesauce
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1</span>
+                    Egg
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">2/3 cup</span>
+                    Brown sugar
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2 teaspoon</span>
+                    Vanilla extract
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2 cup</span>
+                    All-purpose flour
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2 cup</span>
+                    Whole wheat flour
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 teaspoon</span>
+                    Baking soda
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 teaspoon</span>
+                    Baking powder
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1/2 teaspoon</span>
+                    Salt
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 cup</span>
+                    Blueberries
+                  </li>
+                </ul>
+
+                <p class="lead">Additional Images</p>
+                <%= image_tag "blueberries.jpg", :class => 'img-responsive image-spacing'%>
+<!--                 <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
+                <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
+                <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a> -->
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                    <%= image_tag "muffin.jpg", :class => 'img-responsive'%>
+                    <div class="caption-full">
+                        <h3 class = "header-spacing">Low-Fat Blueberry Bran Muffins</h3>
+                    </div>
+
+                        <p class = "p-spacing">These muffins are just as delicious and moist as regular muffins! They'll be gone before they have time to cool. Low-fat, healthy and yummy, imagine that.</p>
+
+              </div>
+              <div class = "thumbnail">
+                    <div class="caption-full">
+                        <h3>Preparation Instructions
+                        </h3>
+                        <em>Total Time: 35 minutes</em>
+                    </div>
+
+              <ol class = "preparation-instructions">
+                  <li>
+                   Preheat oven to 375 degrees F (190 degrees C). Grease muffin cups or use paper muffin liners. Mix together wheat bran and milk, and let stand for 10 minutes.
+                  </li>
+                  <li>In a large bowl, mix together applesauce, egg, brown sugar, and vanilla. Beat in bran mixture. Sift together all-purpose flour, whole wheat flour, baking soda, baking powder, and salt. Stir into bran mixture until just blended. Fold in blueberries. Scoop into muffin cups.
+                  </li>
+                  <li>
+                    Bake in preheated oven for 15 to 20 minutes, or until tops spring back when lightly tapped.</li>
+                  
+                </ol>
+
+                </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+
+                <!-- the comment box -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- the comments -->
+                <div class = "row">
+                  <div class="col-md-2"><img class = "img-circle img-responsive" alt="broken" src ="http://placehold.it/300x300"/></div>
+                  <div class="col-md-10">
+                <h4>Alex Yang
+                    <small>9:41 PM on August 24, 2013</small>
+                </h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, officia non recusandae repellendus quaerat odit eligendi modi sapiente totam molestiae?</p>
+                </div>
+              </div>
+              <br/>
+                <div class = "row">
+                  <div class="col-md-2"><img class = "img-circle img-responsive" alt="broken" src ="http://placehold.it/300x300"/></div>
+                  <div class="col-md-10">
+                <h4>Anam Majidi
+                    <small>9:41 PM on August 24, 2013</small>
+                </h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, officia non recusandae repellendus quaerat odit eligendi modi sapiente totam molestiae?</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+
+
+<%= render "footer" %>
