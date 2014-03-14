@@ -1,14 +1,13 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails'
 gem 'bootstrap-sass'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'sqlite3'
 gem 'json'
-gem 'instagram'
+# gem 'instagram'
 gem 'will_paginate'
 gem 'jquery-rails'
 
