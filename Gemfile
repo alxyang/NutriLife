@@ -7,7 +7,9 @@ gem 'bootstrap-sass'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'sqlite3'
 gem 'json'
+
 # gem 'instagram'
+
 gem 'will_paginate'
 gem 'jquery-rails'
 

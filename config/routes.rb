@@ -5,6 +5,7 @@ InstaApp::Application.routes.draw do
   match '/Category',   to: 'home#category'
   match '/Home',    to: 'home#index'
   match '/Contact',    to: 'home#contact'
+  match '/LoseWeight', to: 'home#loseweight'
   root :to => "home#index"
 
   # The priority is based upon order of creation:

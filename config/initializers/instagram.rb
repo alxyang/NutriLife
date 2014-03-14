@@ -1,3 +1,4 @@
+
 # require "instagram"
 
 # Instagram.configure do |config|
@@ -7,3 +8,4 @@
 # config.access_token = "651920239.3ccebc0.1a1ef2e04eaf4d6e9eacb8bf9eb67414"
 
 # end
+
