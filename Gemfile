@@ -12,6 +12,7 @@ end
 gem 'json'
 gem 'will_paginate'
 gem 'jquery-rails'
+gem 'fancybox2-rails'
 
 
 
