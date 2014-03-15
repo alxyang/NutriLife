@@ -66,4 +66,21 @@ class HomeController < ApplicationController
   def oatmealflax
   end
 
+  def salmon
+  end
+
+  def searedscallop
+  end
+
+  def chickensoup
+  end
+
+  def tvsnacks
+  end
+
+  def midnightsnacks
+  end
+
+  def studysnacks
+  end
 end
