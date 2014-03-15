@@ -35,6 +35,9 @@ InstaApp::Application.routes.draw do
   match '/KaleChips', to: 'home#kale'
   root :to => "home#index"
 
+  #match checks url CASE SENSITIVE
+  #matching to the corresponding controller, and the action within the controller
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
