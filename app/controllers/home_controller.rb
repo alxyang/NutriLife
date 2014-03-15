@@ -102,4 +102,7 @@ class HomeController < ApplicationController
   def hummusveggies
   end
 
+  def kale
+  end
+
 end
