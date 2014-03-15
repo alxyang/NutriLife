@@ -5,7 +5,10 @@ gem 'bootstrap-sass'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'sqlite3'
+group :development do
+  gem 'sqlite3', '1.3.8'
+end
+
 gem 'json'
 gem 'will_paginate'
 gem 'jquery-rails'
@@ -24,7 +27,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

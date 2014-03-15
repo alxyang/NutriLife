@@ -1,5 +1,5 @@
 @media(min-width:767px) {
-    .navbar {
+    .navbar-home {
         padding: 17px 0;
         opacity: 0.85;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -9,6 +9,27 @@
 
     .top-nav-collapse {
         /* Customize the look and feel of the collapsed top nav here */
-        padding: 5px 0;
+        padding: 0px 0;
     }
 }
+
+.navbar-custom .nav li a{
+
+}
+
+
+.navbar {
+    text-transform: uppercase;
+}
+
+
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+
+/*ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;   
+}
+*/
