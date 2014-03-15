@@ -1,0 +1,133 @@
+<%= render "nav" %>
+
+
+   <div class="container">
+            <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Recipe 
+                    <small>Avocado Toast</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="/Home">Home</a>
+                    </li>
+                    <li><a href="/MidnightSnacks">Midnight Snacks</a></li>
+                    <li class="active">Avocado Toast</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+             <div class="col-md-3">
+                <p class="lead">Ingredients</p>
+                 <ul class="list-group">
+                  <li class="list-group-item">
+                    <span class="badge">12 ounces</span>
+                    Sea scallops
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">2 tbsp</span>
+                    Olive oil
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 lb</span>
+                    Asparagus spears
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1</span>
+                    Medium red onion
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 tbsp</span>
+                    Freshly ground black pepper
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">2</span>
+                    Lemons
+                  </li>  
+                  <li class="list-group-item">
+                    <span class="badge">1 tbsp</span>
+                    Salt
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">1 cup</span>
+                    Fresh basil leaves
+                  </li>                                                         
+                </ul>
+
+                <p class="lead">Additional Images</p>
+                <%= image_tag "blackpepper.jpg", :class => 'img-responsive image-spacing'%>
+                <%= image_tag "lemons.jpg", :class => 'img-responsive image-spacing'%>
+                <%= image_tag "basil.jpg", :class => 'img-responsive image-spacing'%>                
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                    <%= image_tag "scallop.jpg", :class => 'img-responsive'%>
+                    <div class="caption-full">
+                        <h3 class = "header-spacing">Avocado Toast</h3>
+                    </div>
+
+                        <p class = "p-spacing">The soft fleshy texture and delicately mild sweet flavor of scallops are enjoyed by even those who are not particularly fond of fish or other shellfish.  They contain a variety of nutrients that can promote your cardiovascular health, plus provide protection against colon cancer.</p>
+
+              </div>
+              <div class = "thumbnail">
+                    <div class="caption-full">
+                        <h3>Preparation Instructions
+                        </h3>
+                        <em>Total Time: 20 minutes</em>
+                    </div>
+
+              <ol class = "preparation-instructions">
+                  <li>
+                  Rinse the scallops and pat dry. Set aside.
+                  </li>
+                  <li>With a sharp knife, score one lemon lengthwise in four sections and remove the peel from each section. Scrape the white portion from the peel; discard. Cut the peel into very thin strips and set aside. Squeeze 2 tablespoons of juice from the lemon; reserve. </li>
+                  <li>Heat 1 tablespoon of the olive oil in a large skillet over medium heat. Add the asparagus and onion and cook for 2 to 3 minutes; season to taste with the salt and black pepper. Transfer to a serving platter and keep warm.</li>
+                  <li>Combine the lemon peel, basil sprigs, and remaining 2 tablespoons of olive oil in the skillet. Cook for 1 minute or until heated through. Remove the lemon peel and basil sprigs with a slotted spoon, leaving the oil in the skillet; discard.</li>
+                  <li>
+                  Cook the scallops in the hot oil for 3 to 5 minutes or until opaque, turning once. Stir in the reserved lemon juice. Season to taste with salt and black pepper.
+                  </li>
+                  <li>Place the scallops over the asparagus mixture. Cut the remaining lemon into wedges. Garnish the scallops with the wedges and, if desired, the fresh basil. </li>
+                </ol>
+
+                </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+
+                <!-- the comment box -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- the comments -->
+
+            </div>
+        </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+
+
+<%= render "footer" %>

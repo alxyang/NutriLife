@@ -83,4 +83,23 @@ class HomeController < ApplicationController
 
   def studysnacks
   end
+
+  def trail
+  end
+
+  def boiledegg
+  end
+
+  def avocadotoast
+  end
+
+  def almondtoast
+  end
+
+  def bananabites
+  end
+
+  def hummusveggies
+  end
+
 end
