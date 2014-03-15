@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require fancybox
 //= require_tree .
 
 //jQuery to collapse the navbar on scroll
@@ -28,6 +29,33 @@ $('ul.nav li.dropdown').hover(function(){
        $(this).children('ul.dropdown-menu').slideDown(); 
     }, function(){
        $(this).children('ul.dropdown-menu').slideUp(); 
+});
+
+jQuery(function() {
+  $("a.fancybox").fancybox({
+            'transitionIn'      : 'fade',
+            'transitionOut'     : 'fade',
+            'titleFormat'       : function(title) {
+                return title;
+            },
+              beforeShow: function(){
+      $("body").css({'overflow-y':'hidden'});
+    },
+    afterClose: function(){
+      $("body").css({'overflow-y':'visible'});
+    },
+            helpers : {
+              title: {
+                type: 'inside',
+                position: 'bottom'
+              },
+                  overlay: {
+      locked: false
+    }
+            },
+
+  });
+
 });
 
 ;(function($, window, undefined) {

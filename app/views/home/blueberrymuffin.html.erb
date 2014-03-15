@@ -74,10 +74,12 @@
                 </ul>
 
                 <p class="lead">Additional Images</p>
-                <%= image_tag "blueberries.jpg", :class => 'img-responsive image-spacing'%>
-<!--                 <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
-                <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
-                <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a> -->
+  
+                <!-- LIGHTBOTX EXAMPLE HERE -->
+                 <a class="fancybox" href="<%= image_path('blueberries.jpg') %>">
+                    <%=image_tag("blueberries.jpg", :class => 'img-responsive image-spacing') %>
+                 </a>
+                 <!-- END LIGHTBOX EXAMPLE -->
             </div>
 
             <div class="col-md-9">
