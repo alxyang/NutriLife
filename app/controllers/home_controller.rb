@@ -133,5 +133,7 @@ class HomeController < ApplicationController
   def dessert
   end
 
+  def error404
+  end
 
 end
