@@ -44,6 +44,8 @@ InstaApp::Application.routes.draw do
   match '/ChocCraving', to: 'home#choccraving'
   match '/CoffeeCraving', to: 'home#coffeecraving'
   match '/Dessert', to: 'home#dessert'
+  match '/error404', to: 'home#error404'
+  match '*a' => redirect("/error404")
 
   root :to => "home#index"
 
