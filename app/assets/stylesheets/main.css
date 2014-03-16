@@ -258,6 +258,9 @@ font-size: 20px;
   margin-bottom:10px;
 }
 
+.bloglist li{
+  margin-bottom: 10px;
+}
 .featurettes{
   padding-left:100px;
   padding-right:100px;
