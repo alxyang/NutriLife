@@ -49,8 +49,10 @@
                 </ul>
 
                 <p class="lead">Additional Images</p>
-                <%= image_tag "honey.jpg", :class => 'img-responsive image-spacing'%>
-                <%= image_tag "almondbutter.jpg", :class => 'img-responsive image-spacing'%>
+                <a class="fancybox" rel="bites" href="<%= image_path('honey.jpg') %>" title="Honey">
+                <%= image_tag "honey.jpg", :class => 'img-responsive image-spacing'%></a>
+                <a class="fancybox" rel="bites" href="<%= image_path('almondbutter.jpg') %>" title="Almond butter">
+                <%= image_tag "almondbutter.jpg", :class => 'img-responsive image-spacing'%></a>
               
             </div>
 

@@ -79,8 +79,12 @@
                 </ul>
 
                 <p class="lead">Additional Images</p>
-                <%= image_tag "quinoa.jpg", :class => 'img-responsive image-spacing'%>
-                <%= image_tag "cumin.jpg", :class => 'img-responsive image-spacing'%>
+                <a class="fancybox" rel="quinoa" href="<%= image_path('quinoa.jpg') %>" title="quinoa">
+                  <%= image_tag "quinoa.jpg", :class => 'img-responsive image-spacing'%>
+                </a>
+                <a class="fancybox" rel="quinoa" href="<%= image_path('cumin.jpg') %>" title="cumin">
+                  <%= image_tag "cumin.jpg", :class => 'img-responsive image-spacing'%>
+                </a>
 <!--                 <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
                 <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
                 <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a> -->

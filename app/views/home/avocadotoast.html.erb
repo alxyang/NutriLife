@@ -45,8 +45,10 @@
                 </ul>
 
                 <p class="lead">Additional Images</p>
-                <%= image_tag "avocado.jpg", :class => 'img-responsive image-spacing'%>
-                <%= image_tag "blackpepper.jpg", :class => 'img-responsive image-spacing'%>                
+                <a class="fancybox" rel="avotoast" href="<%= image_path('avocado.jpg') %>" title="Avocados">
+                <%= image_tag "avocado.jpg", :class => 'img-responsive image-spacing'%></a>
+                <a class="fancybox" rel="avotoast" href="<%= image_path('blackpepper.jpg') %>" title="Black pepper">
+                <%= image_tag "blackpepper.jpg", :class => 'img-responsive image-spacing'%>  </a>              
             </div>
 
             <div class="col-md-9">

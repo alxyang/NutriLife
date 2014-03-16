@@ -11,8 +11,8 @@
                 <ol class="breadcrumb">
                     <li><a href="/Home">Home</a>
                     </li>
-                     <li><a href="/Category">Dessert</a>
-                    </li>
+                    <li><a href="/Dessert">Dessert</a></li>
+                    <li><a href="/ChocCraving">Chocolate Craving</a></li>
                     <li class="active">Crunchy Peanut Butter Thins</li>
                 </ol>
             </div>
@@ -70,9 +70,10 @@
                   </li>
                 </ul>
                 <p class="lead">Additional Images</p>
-
-                <%= image_tag "crunchythin.jpg", :class => 'img-responsive image-spacing'%>
-
+                <a class="fancybox" rel="peanut" href="<%= image_path('crunchythin.jpg') %>" title="crunchy thin">
+                  <%= image_tag "crunchythin.jpg", :class => 'img-responsive image-spacing'%></a>
+                <a class="fancybox" rel="peanut" href="<%= image_path('rolledoats.jpg') %>" title="rolled oats">
+                  <%= image_tag "rolledoats.jpg", :class => 'img-responsive image-spacing'%></a>
             </div>
 
             <div class="col-md-9">

@@ -11,7 +11,9 @@
                 <ol class="breadcrumb">
                     <li><a href="/Home">Home</a>
                     </li>
-                     <li><a href="/Category">Dessert</a>
+                    <li><a href="/Dessert">Dessert</a>
+                    </li>
+                    <li><a href="/FruityCraving">Fruity Craving</a>
                     </li>
                     <li class="active">Lemony Yogurt Poundcake</li>
                 </ol>
@@ -82,9 +84,10 @@
                   </li>
                 </ul>
                 <p class="lead">Additional Images</p>
-
-                <%= image_tag "greekyogurt.JPG", :class => 'img-responsive image-spacing'%>
-                <%= image_tag "lemons.jpg", :class => 'img-responsive image-spacing'%>
+                <a class="fancybox" rel="lemoncake" href="<%= image_path('greekyogurt.JPG') %>" title="Greek yogurt">
+                  <%= image_tag "greekyogurt.JPG", :class => 'img-responsive image-spacing'%></a>
+                <a class="fancybox" rel="lemoncake" href="<%= image_path('lemons.jpg') %>" title="lemons">
+                  <%= image_tag "lemons.jpg", :class => 'img-responsive image-spacing'%></a>
 
                <!-- <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>
                 <a class = "image-link" href = "http://placehold.it/750x450"><img alt="broken" class="img-responsive image-spacing" src="http://placehold.it/750x450"></a>-->
